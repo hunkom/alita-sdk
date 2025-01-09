@@ -31,9 +31,9 @@ def decode_img(msg):
     return img
 
 
-from src.alita_sdk.llms.alita import AlitaChatModel
-from src.alita_sdk.utils.AlitaCallback import AlitaStreamlitCallback
-from src.alita_sdk.toolkits.tools import get_toolkits
+from alita_sdk.llms.alita import AlitaChatModel
+from alita_sdk.utils.AlitaCallback import AlitaStreamlitCallback
+from alita_sdk.toolkits.tools import get_toolkits
 
 
 def run_streamlit(st, ai_icon=decode_img(ai_icon), user_icon=decode_img(user_icon)):
